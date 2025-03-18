@@ -1,0 +1,2 @@
+C:/Users/cosmi/OneDrive/Pictures/auto_tracko_new_copy/auto_tracko_new_copy/android/app/.cxx/Debug/2c5s4e21/x86/CMakeFiles/edit_cache.dir
+C:/Users/cosmi/OneDrive/Pictures/auto_tracko_new_copy/auto_tracko_new_copy/android/app/.cxx/Debug/2c5s4e21/x86/CMakeFiles/rebuild_cache.dir

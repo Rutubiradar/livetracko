@@ -1,0 +1,117 @@
+name: cws_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  # sizer: ^2.0.15
+  # get: ^4.1.0 uw
+  # get_storage: ^2.0.3
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.0
+  # lottie: ^3.1.2
+  circle_checkbox: ^0.0.2+1
+  # flutter_widget_from_html: ^0.15.0
+  profile: ^0.0.1
+  validation_textformfield: ^2.2.5
+  # intl_phone_field: ^3.1.0 uw
+  # flutter_text_form_field: ^1.0.3 uw
+  # number_text_input_formatter: ^1.0.0+1 uw
+  # buttons_tabbar: ^1.3.6 uw
+  # loading_animation_widget: ^1.2.0+4
+  # flutter_multi_formatter: ^2.10.2
+  # bottom_bar: ^2.0.3
+  flutter_chat_ui: ^1.6.15
+  floating_tabbar: ^1.0.1
+  fl_chart: ^0.70.0
+  # syncfusion_flutter_charts: ^25.2.4 uw
+  # file_picker: ^8.0.3 uw
+  image_picker: ^1.1.1
+  # mime: ^2.0.0 uw
+  # uuid: ^4.4.0 uw
+  # open_filex: ^4.3.2
+  # flutter_emoji_feedback: ^0.3.0
+  connectivity_plus: ^6.1.2
+  # http: ^1.2.1
+  # url_launcher: ^6.2.6
+  # geolocator: ^12.0.0
+  # google_maps_flutter: ^2.6.1
+  flutter_cached_pdfview: ^0.4.3
+  # flutter_file_downloader: ^2.0.0
+  shimmer: ^3.0.0
+  # image: ^4.2.0
+  awesome_dialog: ^3.2.1
+  quickalert: ^1.1.0
+  permission_handler: ^11.3.1
+  pdf: 
+  printing: 
+  pinput: ^5.0.1
+  # smart_auth: ^2.0.0
+  location: ^8.0.0
+  # flutter_native_splash: 
+  # rename_app: ^1.6.1
+  animate_do: ^3.3.4
+  camera: ^0.11.0+2
+  # velocity_x: ^4.3.0
+  sizer: ^3.0.4
+  get_storage: ^2.1.1
+  lottie: ^3.3.1
+  flutter_widget_from_html: ^0.15.3
+  # open_filex: ^4.6.0
+  flutter_emoji_feedback: ^1.0.3
+  google_maps_flutter: ^2.10.0
+  geolocator: ^13.0.2
+  smart_auth: ^3.2.0
+  flutter_file_downloader: ^2.0.0
+  # velocity_x: ^4.3.0
+  change_app_package_name: ^1.4.0
+  velocity_x: ^4.3.1
+  open_filex: ^4.7.0
+  
+  # intl: ^0.19.0
+ 
+
+# dependency_overrides:
+#   intl: ^0.19.0
+dependency_overrides:
+  intl: ^0.20.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/Animations/
+ 
+
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: assets/dummy_icon.png
+  android: true
+
+  # dart run flutter_native_splash:create
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/dummy_icon.png"
+
+
+  #flutter pub run flutter_launcher_icons
